@@ -77,7 +77,7 @@ describe('Register Page', () => {
           cy.get('[data-cy="response-message"]').should('be.visible') //Cevap mesajının göründüğünü doğrula.      
     })
 })
-})
+}) 
 
 //İstediğimiz decribe'ın içine ya da bütün describe bloklarının dışına beforeEach yazarsak her  testten önce çalışır.
 

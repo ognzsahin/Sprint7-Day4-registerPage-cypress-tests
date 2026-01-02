@@ -154,7 +154,7 @@ const handleSubmit = (event) => {
               />
               {errors.soyad && <FormFeedback data-cy="error-message"> {errorsMessages.soyad} </FormFeedback>}
 
-            </FormGroup>
+            </FormGroup> 
 
             <FormGroup>
               <Label for="email">Email</Label>
